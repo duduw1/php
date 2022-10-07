@@ -1,0 +1,38 @@
+.foteer{
+    background-repeat:repeat-x;
+    background-color: rgb(209, 23, 138);
+    
+    font-size: 400%;
+    }
+
+body{
+    background-color: blueviolet;
+    
+}
+head{
+    background: fixed;
+    background-color: blueviolet;
+
+}
+p{    font-size: large;
+    font-family: 'Gill Sans';
+    background-color: '#23456';
+
+    
+}
+
+h1{
+font-size: x-large;
+background-color: blueviolet;
+
+}
+
+table{
+    background-color: rgb(218, 33, 33);
+
+}
+
+div{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
