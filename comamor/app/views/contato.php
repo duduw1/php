@@ -1,17 +1,185 @@
 
-<html style="font-size: 16px;" lang="pt" data-darkreader-mode="dynamic" data-darkreader-scheme="dark" class="u-responsive-xl">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<style class="darkreader darkreader--fallback" media="screen"></style>
-<style class="darkreader darkreader--text" media="screen"></style>
-<style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
-    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
-}</style>
+   
+<link rel="stylesheet" href="style.css">
 
-</head>
-  <body data-home-page="Página-Inicial.html" data-home-page-title="Página Inicial" class="u-body u-xl-mode" data-lang="pt"><header class="u-clearfix u-header u-header" id="sec-b486"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="https://nicepage.com/" class="u-image u-logo u-image-1">
-          <img src="./contato_files/default-logo.png" class="u-logo-image u-logo-image-1">
-        </a>
+
+<style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+.u-body .u-sheet .u-sheet {
+  width: 100% !important;
+}
+.u-container-layout {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+  transition-duration: inherit;
+}
+
+.u-svg-link {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+.u-svg-content {
+  width: 0;
+  height: 0;
+}
+.u-icon-circle {
+  border-radius: 50%;
+}
+.u-file-icon img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+.u-body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.u-body h1,
+.u-body h2,
+.u-body h3,
+.u-body h4,
+.u-body h5,
+.u-body h6 {
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: inherit;
+}
+h1 {
+  font-size: 2.25rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1.125rem;
+}
+h6 {
+  font-size: 1.125rem;
+}
+p {
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+.u-uppercase {
+  text-transform: uppercase;
+}
+.u-align-left {
+  text-align: left;
+}
+@media (min-width: 1400px) {
+  .u-align-left-xxl {
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  .u-xl-mode .u-align-left-xl {
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .u-xxl-mode .u-align-left-xl {
+    text-align: left;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .u-align-left-lg {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .u-align-left-md {
+    text-align: left;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .u-align-left-sm {
+    text-align: left;
+  }
+}
+@media (max-width: 575px) {
+  .u-align-left-xs {
+    text-align: left;
+  }
+}
+.u-align-center {
+  text-align: center;
+}
+.u-social-icons {
+  display: flex;
+}
+.u-social-url {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  border: 0 none transparent;
+  outline-width: 0;
+  background-color: transparent;
+  margin: 0;
+  -webkit-text-decoration-skip: objects;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.u-social-icons .u-icon {
+  display: flex;
+  height: 100% !important;
+}
+.u-social-icons .u-social-url,
+.u-social-icons .u-social-url:hover {
+  color: currentColor;
+}
+.u-social-icons a {
+  height: 100%;
+  display: inline-block;
+  flex: 1;
+}
+<?php include('nicep/fontes.css');?>
+<?php include('nicep/nicepage-site.css');?> deu as cores , 
+<?php include('nicep/nicepage.css');?>  juntou cores parte de cima 
+<?php include('nicep/Página-Inicial.css');?>   colocou a imagem 
+</style>
+
+
+
+
+
+  <header class="u-clearfix u-header u-header" id="sec-b486" style="
+    height: 120px;">
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <div class="u-clearfix u-sheet u-sheet-1">
+    
       </div></header>
     <section class="u-align-center u-clearfix u-grey-5 u-section-1" id="carousel_1963">
       <div class="u-clearfix u-sheet u-sheet-1">
@@ -45,19 +213,25 @@
                     <br>Capim Branco - MG - Brasil in Earth
                   </p>
                   <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                    <a class="u-social-url" title="facebook" target="_blank" href="https://facebook.com/roduvi.dudu"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-bc6b"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-bc6b"><path fill="currentColor" d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2
-	c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;"></path></svg></span>
+                    <a class="u-social-url" title="facebook" target="_blank" href="https://facebook.com/name"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="
+    width: 24px;
+"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-bc6b"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-bc6b"><path fill="currentColor" d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2
+	c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z" style="--darkreader-inline-fill:currentColor;" data-darkreader-inline-fill=""></path></svg></span>
                     </a>
-                    <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/duduw1"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-black u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ed97"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-ed97"><path fill="currentColor" d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2
+                    <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/name"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-black u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="
+    width: 24px;
+"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ed97"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-ed97"><path fill="currentColor" d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2
 	c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7
 	c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2
 	c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5
-	c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;"></path></svg></span>
+	c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z" style="--darkreader-inline-fill:currentColor;" data-darkreader-inline-fill=""></path></svg></span>
                     </a>
-                    <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/duduw1"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-black u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ea73"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-ea73"><path fill="currentColor" d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z
-	 M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;"></path><path fill="#FFFFFF" d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#e8e6e3;"></path><path fill="currentColor" d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7
+                    <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/name"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-black u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="
+    width: 24px;
+"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ea73"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-ea73"><path fill="currentColor" d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z
+	 M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z" style="--darkreader-inline-fill:currentColor;" data-darkreader-inline-fill=""></path><path fill="#FFFFFF" d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z" style="--darkreader-inline-fill:#e8e6e3;" data-darkreader-inline-fill=""></path><path fill="currentColor" d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7
 	V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7
-	c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;"></path></svg></span>
+	c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z" style="--darkreader-inline-fill:currentColor;" data-darkreader-inline-fill=""></path></svg></span>
                     </a>
                   </div>
                 </div>
@@ -74,15 +248,15 @@
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-44fb"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="https://site154847.nicepage.io/?version=868815f6-4d7d-4a80-9477-ba2816099e3b" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
-    </section>
+      
+      
+      </section>
   
-<style>.u-disable-duration * {transition-duration: 0s !important;}</style><style class="darkreader darkreader--sync" media="screen"></style></body></html>
+<style>.u-disable-duration * {transition-duration: 0s !important;}</style><style class="darkreader darkreader--sync" media="screen"></style><footer>
+	
+	<!-- jQuery -->
+    <script src="./Com Amor_files/jquery-3.2.1.min.js.download"></script>
+    <script src="./Com Amor_files/bootstrap.min.js.download"></script>
+</footer>
+
+</body></html>

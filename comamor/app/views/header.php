@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>betabase</title>
+	<title>Com Amor</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="app/css/bootstrap.min.css">
 	<link rel="stylesheet" href="app/css/bootstrap-theme.min.css">
@@ -32,10 +32,13 @@
 
 			<div class="collapse navbar-collapse" id="menu_lista">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="link_menu"><a href="?i=sobre">Sobre</a></li>
-					<li class="link_menu"><a href="?i=navegar">Navegar</a></li>
-					<li class="link_menu"><a href="?i=blast">BLAST</a></li>
-					<li class="link_menu"><a href="#help">Ajuda</a></li>
+					<li class="link_menu"><a href="?i=inicio">Inicio</a></li>
+					<li class="link_menu"><a href="?i=datas">Datas</a></li>
+					<li class="link_menu"><a href="?i=coisas">Coisas</a></li>
+					<li class="link_menu"><a href="?i=fotos">Fotos</a></li>
+					<li class="link_menu"><a href="?i=lugares">Lugares</a></li>
+					<li class="link_menu"><a href="?i=ideias">Ideias</a></li>
+					<li class="link_menu"><a href="?i=contato">Contato</a></li>
 				</ul>
 			</div>
 

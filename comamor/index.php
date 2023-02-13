@@ -22,18 +22,30 @@ switch ($pagina) {
 		include 'app/views/home.php';
 		break;
 
-	case 'sobre':
-		include 'app/views/sobre.php';
+	case 'contato':
+		include 'app/views/contato.php';
 		break;
 
-	case 'navegar':
-		include 'app/views/navegar.php';
+	case 'coisas':
+		include 'app/views/coisas.php';
 		break;
 
-	case 'blast':
-		include 'app/views/blast.php';
+	case 'datas':
+		include 'app/views/datas.php';
 		break;
 	
+	case 'fotos':
+		include 'app/views/fotos.php';
+		break;
+		
+	case 'ideias':
+		include 'app/views/ideias.php';
+		break;
+
+	case 'locais':
+		include 'app/views/locais.php';
+		break;
+
 	default:
 		include 'app/views/home.php';
 		break;
