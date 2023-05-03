@@ -251,25 +251,26 @@
                 </span>
                 <br>Capim Branco - MG - Brasil in Earth
               </p>
-              <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                <a class="u-social-url" title="facebook" target="_blank"
-                  href="https://www.facebook.com/roduvi.dudu/"><span
-                    class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-black u-icon-1"><svg
-                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="
-    width: 24px;
-">
+
+              <div class="u-social-icons u-spacing-10 u-social-icons-1">    <!-- social icones -->
+              
+                <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/roduvi.dudu/"> 
+                  <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-black u-icon-1">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112"
+                      style="width: 24px">
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-bc6b"></use>
-                    </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-bc6b">
+                    </svg>
+                    <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-bc6b">
                       <path fill="currentColor" d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2
   c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z" style="--darkreader-inline-fill:currentColor;"
                         data-darkreader-inline-fill=""></path>
-                    </svg></span>
+                    </svg>
+                  </span>
                 </a>
+
                 <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/duduw1"><span
                     class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-black u-icon-2"><svg
-                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="
-    width: 24px;
-">
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="width: 24px">
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ed97"></use>
                     </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-ed97">
                       <path fill="currentColor" d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2
@@ -280,6 +281,7 @@
                         style="--darkreader-inline-fill:currentColor;" data-darkreader-inline-fill=""></path>
                     </svg></span>
                 </a>
+
                 <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/duduw1"><span
                     class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-black u-icon-3"><svg
                       class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="width: 24px">
@@ -298,25 +300,29 @@
                     </svg></span>
                 </a>
 
-                <a class="u-social-url" target="_blank" data-type="Github" title="Github" href="https://github.com/duduw1">
-                <span class="u-file-icon u-icon u-social-github u-social-icon u-icon-5">
-                <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="width: 24px">
+                <a class="u-social-url" target="_blank" data-type="Github" title="Github"
+                  href="https://github.com/duduw1">
+                  <span class="u-file-icon u-icon u-social-github u-social-icon u-icon-5">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112"
+                      style="width: 24px">
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ea73"></use>
                     </svg>
-                <img src="https://assets.nicepagecdn.com/cb34e758/3446252/images/2111432.png" alt="">
-                </span>
-                    </a>
+                    <img src="https://assets.nicepagecdn.com/cb34e758/3446252/images/2111432.png" alt="">
+                  </span>
+                </a>
 
-                <a class="u-social-url" target="_blank" data-type="Email" title="Email" href="mailto:8du@hotmail.com.br?subject=Contato%20Site">
+                <a class="u-social-url" target="_blank" data-type="Email" title="Email"
+                  href="mailto:8du@hotmail.com.br?subject=Contato%20Site">
                   <span class="u-file-icon u-icon u-social-email u-social-icon u-icon-4">
-                  <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="width: 24px">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112"
+                      style="width: 24px">
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ea73"></use>
                     </svg>
                     <img src="https://assets.nicepagecdn.com/cb34e758/3446252/images/646094.png" alt="">
                   </span>
                 </a>
 
-              </div>
+              </div>  <!-- social icones fim -->
             </div>
           </div>
         </div>
