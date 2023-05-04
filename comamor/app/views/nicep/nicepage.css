@@ -1957,14 +1957,7 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-.u-clearfix:after,
-.u-clearfix:before {
-  content: '';
-  display: table;
-}
-.u-clearfix:after {
-  clear: both;
-}
+
 .u-textlink,
 .u-textlink:hover,
 .u-textlink:focus,
