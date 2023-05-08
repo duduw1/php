@@ -11,8 +11,6 @@
 
 </head>
 
-<body>
-
 <header>
 	<nav class="navbar navbar-inverse navbar-fixed">
 		<div class="container">
