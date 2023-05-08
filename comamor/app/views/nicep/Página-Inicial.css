@@ -9,21 +9,21 @@
 .u-section-1 .u-text-1 {
   width: 525px;
   font-weight: 700;
-  margin: 60px auto 0;
+  margin:  auto ;
 }
 
 .u-section-1 .u-text-2 {
-  width: 525px;
+  width: 525px;        /*525px*/
   margin: 11px auto 0;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: 100%;   //largura da dive sobre mim
-  margin: 60px auto 59px;
+  width: 100%;   /*largura da dive sobre mim */
+  margin: auto auto auto;  /*60px auto 59px*/
 }
 
 .u-section-1 .u-layout-cell-1 {  
-  min-height: 270px;  //magem da imagem pra baixo
+  min-height: 270px;  /*magem da imagem pra baixo */
 }
 
 
@@ -35,9 +35,33 @@
   background-position: 50% 50%;
   margin: 0 auto;
 }
+.u-image-circle.u-image {   /*deixa imagem redonda */
+  border-radius: 50% !important;
+}
+.u-image-square {
+  border-radius: 0;
+}
+
+.u-image,
+.u-background-effect-image,
+.u-video-poster {
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+
+[data-post-link],
+[data-href] {
+  cursor: pointer;
+}
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 20%;  //dive branco com descrição
+  min-height: 20%;  /*dive branco com descrição */
   background-image: none;
 }
 
@@ -59,38 +83,77 @@
 }
 
 .u-section-1 .u-text-6 {
-  line-height: 2;  //espaço entre as linhas
-  margin: 2% 2% 2%;  //20px 0 0
+  line-height: 2;  /*espaço entre as linhas */
+  margin: 2% 2% 2%;  /*20px 0 0*/
 }
 
 .u-section-1 .u-social-icons-1 {  /*mexe nos icones */
-  white-space: nowrap;
-  height: 24px;
-  min-height: 16px;
   width: 91px;
-  min-width: 68px;
-  margin: 30px auto 0;
+  margin: 0 45% 0px;    /*30px auto 0; centralizou os icones */ 
+}
+
+.u-align-center {
+  text-align: center;
+}
+
+.u-social-icons {
+  display: flex;
+}
+
+.u-social-url {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  border: 0 none transparent;
+  outline-width: 0;
+  background-color: transparent;
+  margin: 0;
+  -webkit-text-decoration-skip: objects;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.u-social-icons .u-icon {
+  display: flex;
+  height: 100% !important;
+}
+
+.u-social-icons .u-social-url,
+.u-social-icons .u-social-url:hover {
+  color: currentColor;
 }
 
 
 
-
-
-
-
-
-  
-{
-  background-color: var(--darkreader-inline-bgcolor) !important;
+.u-xxl-mode  .u-layout-col > .u-size-0-xl {   /* deixar icones grandes */
+  flex: auto auto auto;
+}
+ 
+.u-spacing-10.u-countdown-counter > div + div,    /* espaço dos social icones */
+.u-spacing-10.u-price-wrapper > div + div,
+.u-spacing-10.u-language-layout-icons .u-language-url + .u-language-url,
+.u-spacing-10 .u-social-url + .u-social-url {
+  margin-left: 10px;
+}
+.u-spacing-10.u-language-layout-dropdown .u-language-url + .u-language-url {
+  margin-top: 10px; 
 }
 
-      /* Define as dimensões do conteúdo da página */
-      .conteudo {
-      width: 80%;
-      height: 100%;
-      margin: auto;
-      background-color: #FFA07A;
-    }
+
+
+      
+.conteudo {   /* Define as dimensões do conteúdo da página */
+    width: 80%;
+    height: 100%;
+     margin: auto; /*auto */
+     background-color: #FFA07A; /* cor da bandana #9a4751 */
+     }
 
 [data-darkreader-inline-bgimage] {
   background-image: var(--darkreader-inline-bgimage) !important;
@@ -191,46 +254,3 @@ p {
 
 
 
-
-.u-align-center {
-  text-align: center;
-}
-
-.u-social-icons {
-  display: flex;
-}
-
-.u-social-url {
-  color: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  text-transform: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-  text-decoration: none;
-  border: 0 none transparent;
-  outline-width: 0;
-  background-color: transparent;
-  margin: 0;
-  -webkit-text-decoration-skip: objects;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.u-social-icons .u-icon {
-  display: flex;
-  height: 100% !important;
-}
-
-.u-social-icons .u-social-url,
-.u-social-icons .u-social-url:hover {
-  color: currentColor;
-}
-
-.u-social-icons a {
-  height: 100%;
-  display: inline-block;
-  flex: 1;
-}
